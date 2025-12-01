@@ -1,0 +1,8 @@
+{
+  "name": "cohere-chat-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "cohere-ai": "^3.0.0"
+  }
+}
