@@ -35,7 +35,7 @@
       document.getElementById('userInput').value = '';
 
       try {
-        const res = await fetch('https://cohere-ai-azure.vercel.app/chat', {
+        const res = await fetch('https://cohere-ai-azure.vercel.app/chat'), {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ messages })
